@@ -4,7 +4,7 @@ import requests
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
 url = 'https://api.nike.com/snkrs/content/v1/?country=US&language=en&offset=0&orderBy=published'
-webhook_url = 'https://discordapp.com/api/webhooks/665931566865711146/2dzSuVjOa2CUb7vZK7gfkusWUh6MDN_W1etddy0qAv6ANBHrmZMwncKUUg8ZYljq9F8g'
+webhook_url = 'your discord webhook url'
 
 
 def check_update(data, previous):
